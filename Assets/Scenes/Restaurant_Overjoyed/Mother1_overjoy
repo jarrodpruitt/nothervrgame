@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Mother1 : MonoBehaviour
+{
+    Animator myAnimator;
+    public AudioSource mom_talking3;
+    public GameObject mother;
+        Animator momAnimation;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        myAnimator = GetComponent<Animator>();
+        // myAnimator.SetTrigger("talking");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Talk();
+    }
+     private void Talk(){
+    
+    Invoke("momTalking", 2f);
+
+    }
+ 
+        private void momTalking(){
+        momAnimation = mother.GetComponent<Animator>();
+        momAnimation.SetTrigger("talking");
+        mom_talking3.Play();
+    }
+
+}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuUI/MainMenu.unity
+    guid: 139c70700af560f459bcbe6328af045c
+  - enabled: 1
+    path: Assets/Scenes/MenuUI/PreTraining.unity
+    guid: 7dfd828c9e2638541aba1fca9363379b
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Anger/RestaurantScene.unity
+    guid: 0d524a571951b714d8c8e586335b5c97
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Anger/AngerActivityMessUp.unity
+    guid: 13e61abc9ee1bb140994f812469f0c1e
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Anger/RewardScene.unity
+    guid: 013f7fab4e422d34b8f5c21a9ffc08bf
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Sad/Restaurant_sad.unity
+    guid: 60a38c065ea25d34f8fa6fc89c18990f
+  - enabled: 1
+    path: Assets/Scenes/Restaurant_Frustration/ResturantFrustration.unity
+    guid: 6bec6464f9f9f7947bb7ec01e672dae5
+  - enabled: 1
+    path: Assets/Scenes/Restaurant_Overjoyed/overjoyed.unity
+    guid: 718df1eea66fe9d4d85e9fdd3614fedb
+  - enabled: 1
+    path: Assets/Scenes/MenuUI/PreTesting.unity
+    guid: c157acbfb32943e419a674f376aaa9c7
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Sad/RestaurantSad - Testing.unity
+    guid: b65445ea574477d42b37be5fb4d1996a
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Anger/AngerTest_01.unity
+    guid: 73ec33adc78694344b9c421ab49498ab
+  - enabled: 1
+    path: Assets/Scenes/Restuarant_Anger/AngerTest_02.unity
+    guid: 014e42300a9a6e844a138998c5e70367
+  - enabled: 1
+    path: Assets/Scenes/Restaurant_Frustration/ResturantFrustration - Testing.unity
+    guid: 7fe6e77d95ea13644a4ac8d1e130360b
+  - enabled: 1
+    path: Assets/Scenes/Restaurant_Overjoyed/OverjoyTest.unity
+    guid: 5814ab1b61c3d00488a7995557b6486e
+  - enabled: 1
+    path: Assets/Scenes/Restaurant_Overjoyed/OverJoyTestingTransition.unity
+    guid: 8d1c686ec07377d49bd31cce06317778
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: de029e129de45cf4796bf086cb7bb3f6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a75baec7f1ab5d848bbf27852cff7da0, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 06d4e6ec32c456e4d95a059b1dbcecb6, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 6f5783df79162e6438ea445a5268e163, type: 2}
